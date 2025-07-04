@@ -6,6 +6,7 @@ import Cocktails from './components/Cocktails';
 import About from './components/About';
 import Art from "./components/Art";
 import Slider from './components/Slider';
+import Contact from './components/Contact';
 
 gsap.registerPlugin(SplitText, ScrollTrigger);
 
@@ -18,6 +19,7 @@ const App = () => {
       <About></About>
       <Art></Art>
       <Slider></Slider>
+      <Contact></Contact>
     </main>
   )
 }

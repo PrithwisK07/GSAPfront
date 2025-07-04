@@ -305,4 +305,12 @@ body {
       @apply scale-90;
     }
   }
+
+  #contact {
+    @apply w-full h-screen radial-gradient flex flex-col items-center text-center justify-between py-[10vh];
+
+    .contact-body {
+      @apply flex flex-col gap-[5vh];
+    }
+  }
 }
