@@ -30,7 +30,7 @@ const Art = () => {
 
                 <h1 className='w-full text-center absolute text-[18rem] font-modern-negra top-1/4 -translate-y-1/2 text-[#464646] fade'>The Art</h1>
 
-                <div className="cocktail-img abs-center">
+                <div className="cocktail-img abs-center flex-center">
                     <img src="/images/under-img.jpg" alt="art-img" className=' masked-img h-auto size-full abs-center' />
                 </div>
 
