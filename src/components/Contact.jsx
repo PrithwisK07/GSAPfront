@@ -6,7 +6,7 @@ const Contact = () => {
             <img
                 src="/images/slider-right-leaf.png"
                 alt="slider-right-leaf"
-                className="absolute right-0 w-1/4 sm:w-1/5 -top-20 sm:-top-32"
+                className="absolute right-0 w-1/4 sm:w-1/5 top-0 sm:-top-32"
             />
 
             <section id="contact" className="w-full max-w-4xl text-center flex flex-col items-center gap-12">
