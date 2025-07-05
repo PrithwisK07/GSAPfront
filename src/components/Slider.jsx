@@ -20,8 +20,8 @@ const Slider = () => {
             });
 
             gsap.fromTo("#slider-img",
-                { opacity: 0, xPercent: -100 },
-                { opacity: 1, xPercent: 0, duration: 0.8, ease: "power1.out" }
+                { opacity: 0, xPercent: -150 },
+                { opacity: 1, xPercent: 0, duration: 1, ease: "power1.out" }
             );
         }, containerRef);
 
