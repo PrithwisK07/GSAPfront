@@ -70,6 +70,7 @@ const Slider = () => {
 
                 <div className="slider-img">
                     <img
+                        className={cocktail === 1 ? `translate-y-22` : ""}
                         id="slider-img"
                         key={display_cocktails[cocktail]?.img} // remounts image
                         src={display_cocktails[cocktail]?.img}

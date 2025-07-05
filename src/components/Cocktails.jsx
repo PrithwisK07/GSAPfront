@@ -48,7 +48,7 @@ const Cocktails = () => {
 
 
     return (
-        <section id='cocktails' className='noisy mt-[100vh]'>
+        <section id='cocktails' className='noisy'>
             <div className="body">
                 <img id='cocktail-left-leaf' src="/images/cocktail-left-leaf.png" alt="cocktail-left-leaf" className='left-leaf' />
 
